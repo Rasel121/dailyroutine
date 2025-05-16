@@ -1,0 +1,32 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+tr,th,td{
+    border: 2px solid black;
+    font-weight: bold;
+}
+
+table{
+    height: 600px;
+    text-align: center;
+}
+
+th{
+    font-weight: 700;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+tr{
+    margin: 100px;
+}
+
+td{
+    font-size: 20px;
+    padding: 10px 40px;
+}
